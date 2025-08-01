@@ -3,6 +3,33 @@
     font-family:arial;
     border:border-box;
 }
+@media (max-width: 768px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    padding: 10px;
+  }
+
+  .product-card {
+    padding: 12px;
+  }
+
+  .product-card img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-container {
+    grid-template-columns: 1fr;
+    padding: 8px;
+  }
+
+  .product-card {
+    padding: 8px;
+  }
+}
 .navbar{
     height:50px;
     background-color: rgb(8, 8, 26);
