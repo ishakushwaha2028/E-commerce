@@ -6,7 +6,7 @@
 @media (max-width: 768px) {
     .container1 ,.container2 ,.container3 ,.container4 ,.container5 ,.container6 ,.container7 ,.container8 ,.container9 ,.container10 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: 1fr;
     gap: 16px;
     padding: 10px;
   }
@@ -341,7 +341,7 @@ margin-left: 20px;
   padding: 1rem;
                             }
                             .container9{
-                                height: 240px;
+                                height: auto;
                                 width:1200px;
                                 background-color:white;
                                 margin-left: 20px;
@@ -351,13 +351,15 @@ margin-left: 20px;
                                 text-align: left;
                                  }
                                  .container10{
-                                    height: 130px;
+                                    height: auto;
                                     margin-top: 20px;
                                     text-align: center;
                                     padding-top: 28px;
                                     padding-bottom: 20px;
                                     background-color: white;
                                     width:1500px;
+                                      grid-template-columns: repeat(auto-fit,minmax(250px,fr));
+                                  gap:1rem;
                                      }
  .container1 img,.container2 img,.container3 img,.container4 img,.container5 img,.container6 img,.container7 img,.container8 img,.container9 img,.container10 img{
                                     width: 100%;
