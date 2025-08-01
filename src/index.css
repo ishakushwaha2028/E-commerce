@@ -253,61 +253,82 @@ background-color:white;
 text-align: left;
 padding:20px;
 margin-left: 20px;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 .container2{
-    height:380px;
+    height:auto;
     width:300px;
     background-color:white;
     text-align: left;
     padding:20px;
     margin-left: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
     }
     .container3{
-        height:380px;
+        height:auto;
         width:300px;
         background-color:white;
         text-align: left;
         padding:20px;
         margin-left: 20px;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
         }
         .container4{
-            height:380px;
+            height:auto;
             width:300px;
             background-color:white;
             text-align: left;
             padding:20px;
             margin-left: 20px;
             margin-right: 20px;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
             }
             .container5{
-                height:380px;
+                height:auto;
                 width:350px;
                 background-color:white;
                 text-align: left;
                 padding:20px;
                 margin-left: 20px;
                 margin-top: 20px;
+                  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
                 }
                 .container6{
-                    height:380px;
+                    height:auto;
                     width:360px;
                     background-color:white;
                     text-align: left;
                     padding:20px;
                     margin-left: 20px;
                     margin-top: 20px;
+                      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
                     }
                     .container7{
-                        height:380px;
+                        height:auto;
                         width:350px;
                         background-color:white;
                         text-align: left;
                         padding:20px;
                         margin-left: 20px;
                         margin-top: 20px;
+                          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
                         }
                         .container8{
-                            height:380px;
+                            height:auto;
                             width:350px;
                             background-color:white;
                             text-align: left;
@@ -315,6 +336,9 @@ margin-left: 20px;
                             margin-left: 20px;
                             margin-top: 20px;
                             margin-right: 20px;
+                              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
                             }
                             .container9{
                                 height: 240px;
